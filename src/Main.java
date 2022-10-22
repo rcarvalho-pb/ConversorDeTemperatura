@@ -19,7 +19,6 @@ public class Main {
                 if(!(teste == 's')) break;
 
                 System.out.println();
-                UI.limparTela();
             }
 
 
