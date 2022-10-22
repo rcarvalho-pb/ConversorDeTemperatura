@@ -38,10 +38,6 @@ public class UI {
 
        mensagemMedia(unidadeEntrada, mediaTemperaturasIniciais);
        mensagemMedia(unidadeSaida, mediaTemperaturasFinais);
-
-
-//        System.out.println("\n\nA média das temperaturas de origem é: " + mediaTemperaturasIniciais);
-//        System.out.println("A média das temperaturas finais é: " + mediaTemperaturasFinais);
     }
 
     static public void mensagemConversao(Unidades tempOrigem, Unidades tempFinal, Double valorInicial, Double valorFinal){
