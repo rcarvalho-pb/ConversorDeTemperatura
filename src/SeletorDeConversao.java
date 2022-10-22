@@ -2,7 +2,7 @@ public class SeletorDeConversao {
 
 
 
-    static Double seletorDeConversao(Unidades tempOrigem, Unidades tempFinal, Double valorTemp) throws IllegalArgumentException{
+    static Double seletorDeConversao(Unidades tempOrigem, Unidades tempFinal, Double valorTemp){
 
         if(tempOrigem.equals(Unidades.CELSIUS)){
             return switch (tempFinal) {

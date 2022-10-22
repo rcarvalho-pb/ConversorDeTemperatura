@@ -72,7 +72,7 @@ public class UI {
         System.out.printf("\nA média das temperaturas de origem é: %.1f %s", valor, temp);
     }
     
-    static public void limparTela(){ //Infelizmente não funciona no Intellij, mas funciona rodando no terminal
+    static public void limparTela(){ //Função para limpar o terminal(Não funciona no Intellij)
         System.out.print("\033[H\033[2J");
         System.out.flush();
     }

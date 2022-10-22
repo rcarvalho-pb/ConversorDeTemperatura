@@ -18,6 +18,7 @@ public class Main {
                 char teste = entrada.next().charAt(0);
                 if(!(teste == 's')) break;
 
+                System.out.println();
                 UI.limparTela();
             }
 
@@ -27,7 +28,7 @@ public class Main {
             System.err.println("\nErro: Quantidade de tentativas inválidas. ");
         }
         catch(IllegalArgumentException e){
-            System.err.println("\nError: Unidade de Temperatura desconhecida. ");
+            System.err.println("\nError: Unidade de Temperatura inválida. ");
         }
         catch (Exception e){
             System.err.println("\nErro inesperado. Encerrando a aplicação. ");
