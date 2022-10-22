@@ -16,9 +16,9 @@ public class UI {
         Double mediaTemperaturasFinais = 0.0;
 
         entrada.nextLine();
-        System.out.print("De qual unidade de origem a converter? ");
+        System.out.print("De qual unidade de origem a converter? (celsius, fahrenheit, kelvin) ");
         Unidades unidadeEntrada = Unidades.valueOf(entrada.nextLine().toUpperCase());
-        System.out.print("Para qual unidade a ser convertida? ");
+        System.out.print("Para qual unidade a ser convertida? (celsius, fahrenheit, kelvin) ");
         Unidades unidadeSaida = Unidades.valueOf(entrada.nextLine().toUpperCase());
         System.out.println("\nInforme os valores a serem convertidos: ");
 
